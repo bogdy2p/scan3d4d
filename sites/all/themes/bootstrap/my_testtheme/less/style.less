@@ -1,0 +1,144 @@
+// Bootstrap library.
+//@import 'bootstrap.less';
+
+// Base-theme overrides.
+@import 'overrides.less';
+
+// Theme specific.
+@import 'header.less';
+@import 'content.less';
+@import 'footer.less';
+
+/**********************************CUSTOM BY ME *************************************************************************/
+/**********************************CUSTOM BY ME *************************************************************************/
+/**********************************CUSTOM BY ME *************************************************************************/
+body {
+  background: #fff url("http://www.scan3d4d.com/_images/background_fades/home_bgfade.jpg") 0 0 repeat-x;
+}
+
+.row{
+  background-color : yellow;
+}
+
+.sitewide_header{
+   //FOR PCs
+  @media screen and (min-width: 1000px){
+    background-image: url(../images/test_first_header_pc.jpg);
+    background-repeat: none;
+    background-size: 100% 100%;
+    width:100%;
+    height:200px;
+    padding: 0;
+    margin: 0;
+  }
+  @media screen and (min-width: 768px) and (max-width:999px){
+    background-image: url(../images/test_first_header_tablet.jpg);
+    background-repeat: none;
+    background-size: 100% 100%;
+    width:100%;
+    height:200px;
+    padding: 0;
+    margin: 0;
+  }
+  
+  //FOR TABLETS
+  @media screen and (max-width: 767px){
+    background-color: yellow;
+    width:100%;
+    height:200px;
+  }
+    //FOR PHONES
+  @media screen and (max-width: 420px){
+    background-color: red;
+    width:100%;
+    height:200px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .sitewide_header1 {
+    background-color:red;
+    background: url("../images/header1108x100.jpg") 0 0 ;
+    background-size:100% 100%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .sitewide_header1 {
+    background-color: black;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .sitewide_header1 {
+    background-color: red;
+  }
+}
+
+
+
+
+
+
+.grey_background{
+  background-color: #bdc3c7;
+}
+
+.asphalt_background{
+  background-color: #34495e;
+}
+.green_background{
+  /*background-color: #2ecc71;*/
+  height:120px;
+  background: url("http://www.arvielectrosoft.in/images/header/main-inside-header-bg.jpg") 0 0 ;
+  background-size:100% 100%;
+}
+
+.bradius_10{
+  border-radius: 10px;
+}
+
+.super_header{
+  height:100px;
+}
+
+.meniu_albastru{
+  background: #29b8e5; /* Old browsers */
+  background: -moz-linear-gradient(top,  #29b8e5 0%, #88d0ea 20%, #d7e7ed 35%, #e1e8ea 50%, #d7e7ed 65%, #88d0ea 80%, #29b8e5 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#29b8e5), color-stop(20%,#88d0ea), color-stop(35%,#d7e7ed), color-stop(50%,#e1e8ea), color-stop(65%,#d7e7ed), color-stop(80%,#88d0ea), color-stop(100%,#29b8e5)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  #29b8e5 0%,#88d0ea 20%,#d7e7ed 35%,#e1e8ea 50%,#d7e7ed 65%,#88d0ea 80%,#29b8e5 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top,  #29b8e5 0%,#88d0ea 20%,#d7e7ed 35%,#e1e8ea 50%,#d7e7ed 65%,#88d0ea 80%,#29b8e5 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top,  #29b8e5 0%,#88d0ea 20%,#d7e7ed 35%,#e1e8ea 50%,#d7e7ed 65%,#88d0ea 80%,#29b8e5 100%); /* IE10+ */
+  background: linear-gradient(to bottom,  #29b8e5 0%,#88d0ea 20%,#d7e7ed 35%,#e1e8ea 50%,#d7e7ed 65%,#88d0ea 80%,#29b8e5 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#29b8e5', endColorstr='#29b8e5',GradientType=0 ); /* IE6-9 */
+
+}
+
+.navbar-nav li active a{
+  background-color: yellowgreen;
+
+}
+
+.navbar-default li:hover {
+  /*background:red;*/
+  box-shadow: 1px 1px 1px  green;
+  color: yellow;
+  border-radius: 5px;
+  margin-top:4px;
+}
+
+/*The selected item in the menu */
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a:focus {
+  background: #f2f6f8; /* Old browsers */
+  background: -moz-linear-gradient(top,  #f2f6f8 0%, #d8e1e7 25%, #b5c6d0 50%, #d8e1e7 75%, #e0eff9 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f2f6f8), color-stop(25%,#d8e1e7), color-stop(50%,#b5c6d0), color-stop(75%,#d8e1e7), color-stop(100%,#e0eff9)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  #f2f6f8 0%,#d8e1e7 25%,#b5c6d0 50%,#d8e1e7 75%,#e0eff9 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top,  #f2f6f8 0%,#d8e1e7 25%,#b5c6d0 50%,#d8e1e7 75%,#e0eff9 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top,  #f2f6f8 0%,#d8e1e7 25%,#b5c6d0 50%,#d8e1e7 75%,#e0eff9 100%); /* IE10+ */
+  background: linear-gradient(to bottom,  #f2f6f8 0%,#d8e1e7 25%,#b5c6d0 50%,#d8e1e7 75%,#e0eff9 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f6f8', endColorstr='#e0eff9',GradientType=0 ); /* IE6-9 */
+  border-radius: 5px;
+  box-shadow: 1px 1px 1px  green;
+
+}
