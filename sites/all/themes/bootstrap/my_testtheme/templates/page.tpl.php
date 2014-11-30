@@ -75,15 +75,15 @@
 ?>
 <div class="container">
   <div class="sitewide_header">
-    Nice image logo / header here :)
+      <div class="logo_in_header"></div>
   </div>
 </div>
-<header id="navbar" role="banner" class="<?php print $navbar_classes; ?> meniu_albastru">
+<header id="navbar" role="banner" class="<?php print $navbar_classes; ?> meniu_albastru margin_zero_auto">
   <!--<div class="container">-->
     <div class="navbar-header">
       <?php if ($logo): ?>
       <a class="logo navbar-btn pull-left" href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>">
-        <img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" />
+        <img class="site_home_logo" src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" />
       </a>
       <?php endif; ?>
 
