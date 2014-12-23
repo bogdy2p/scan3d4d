@@ -217,7 +217,7 @@ $databases = array (
     array (
       'database' => 'scan3d4d_drupal',
       'username' => 'root',
-      'password' => 'romania2007',
+      'password' => '123456',
       'host' => 'localhost',
       'port' => '',
       'driver' => 'mysql',
