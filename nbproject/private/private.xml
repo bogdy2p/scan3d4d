@@ -7,12 +7,8 @@
             <file>file:/var/www/html/scan3d4d/sites/all/themes/bootstrap/my_testtheme/templates/page.tpl.php</file>
         </group>
         <group name="Hyphen Lab">
-            <file>file:/var/www/html/scan3d4d/index.php</file>
             <file>file:/var/www/html/scan3d4d/sites/all/themes/bootstrap/my_testtheme/css/style.css</file>
             <file>file:/var/www/html/scan3d4d/sites/all/themes/bootstrap/my_testtheme/less/style.less</file>
-            <file>file:/var/www/html/scan3d4d/sites/all/themes/bootstrap/my_testtheme/less/footer.less</file>
-            <file>file:/var/www/html/scan3d4d/sites/all/themes/bootstrap/my_testtheme/less/header.less</file>
-            <file>file:/var/www/html/scan3d4d/sites/all/themes/bootstrap/my_testtheme/less/content.less</file>
         </group>
     </open-files>
 </project-private>
