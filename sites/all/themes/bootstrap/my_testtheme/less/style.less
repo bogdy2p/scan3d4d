@@ -11,6 +11,18 @@
 /**********************************CUSTOM BY ME *************************************************************************/
 /**********************************CUSTOM BY ME *************************************************************************/
 /**********************************CUSTOM BY ME *************************************************************************/
+
+// IMPORT THE FONT FOR THE HEADERS
+// IMPORT THE FONT FOR THE HEADERS
+@font-face
+{
+font-family: myFirstFont;
+src: url('fontheadere.ttf'),
+     url('fontheadere.eot'); /* IE9 */
+}
+
+
+
 body {
   background: #fff url("http://www.scan3d4d.com/_images/background_fades/home_bgfade.jpg") 0 0 repeat-x;
 }
@@ -165,6 +177,16 @@ body {
   margin-bottom: 2em;
 }
 
+
+.aboutusheader{
+	.aboutus_list_item{
+		.blackred{
+			color: #a60002;
+		}
+	}
+}
+
+
 /****************************/
 /****************************/
 /* VIDEOS PAGE*/
@@ -209,6 +231,15 @@ body {
 /****************************/
 /****************************/
 
+
+.packageindication{
+  text-align: center;
+  padding: 1em;
+  margin-bottom: 5px;
+  color: #a60002;
+  font-weight: bold;
+}
+
 .price-package-title{
   font-size: 18px;
   line-height: 1em;
@@ -235,7 +266,10 @@ body {
   border: 1px solid pink;
   border-radius: 20px;
   min-height: 150px;
-
+  .testclass{
+    padding: 2em; 
+    overflow: hidden;
+  }
   .views-field-field-package-title{
     color:red;
     font-weight: bold;
@@ -249,7 +283,7 @@ body {
     text-align: center;
   }
   ul{
-    margin-top:10px;
+    //margin-top:10px;
     list-style-type: none;
     li{
       color: blue;
@@ -321,8 +355,11 @@ body {
 }
 //Add padding and margin to the page header (the page title)
 .page-header{
+ font-family: myFirstFont;
+ font-size: 2.5em;
+ font-weight: bold;
   color:red;
-  padding:0.5em;
+  //padding:0.5em;
   //margin-top: 5px;
 }
 
@@ -332,6 +369,11 @@ body {
 //ONLY FOR CONTACT PAGE
 
 .phoneandemail{
+  margin: 0px auto;
+  text-align:center;
+  border:1px solid red;
+  border-radius:20px 3px 0px 15px;
+  background: white;
   text-align: center;
   font-size: 1.4em;
   .contactphone{
@@ -342,10 +384,19 @@ body {
     text-align: left;
     color:green;
   }
+  
+}
+
+.contact_image{
+  height: 140px;
+  background: yellow;
+}
+
+.contactofficediv{
   .contactofficeno{
-    text-align: center;
-    //font-size: 0.8em;
-    //font-weight: bold;
+    text-align: center; 
+    //font-size: 1em;
+    font-weight: bold;
     color:red;
     margin: 1.5em;
   }
@@ -360,8 +411,9 @@ body {
   border:1px solid red;
   border-radius:20px 3px 0px;
   background: white;
+  overflow: hidden;
   // THIS SHOULD ONLY BE FOR DESKTOP DISPLAYS (LARGER THAN 1000 PX WIDTH)
-  height: 6em;
+  height: 5.5em;
   padding: 0.8em;
   //width:30%;
   //margin-left:2%;
@@ -392,3 +444,38 @@ body {
   }
 }
 
+
+
+
+//////
+//////
+////// FOR THE GALLERYS PREVIEW VIEW
+//////
+//////
+
+ /// id=ul : block-views-gallery-preview-block
+
+ /// clasa pentru tabel : views-view-grid
+
+ #block-views-gallery-preview-block {
+      .views-row {
+          text-align:center;
+          margin-top: 1.2em;
+            .tablecolumn{
+
+            }
+          }
+      img {
+       //border: 1px solid blue;
+       padding: 20px;
+       background: url(../images/stack_bg.png);
+       background-position: center;
+       background-size: 245px 245px;
+       //margin: 0 15px 0 15px;
+      }
+      .views-field-title{
+      color: red;
+      font-weight: bold;
+      text-align: center;
+      }
+ }
